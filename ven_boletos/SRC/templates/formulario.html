@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="asientos_form" class="div-form-asientos">
+        <h2>Funcion agregar asientos</h2>
+        <!-- Lista de opciones predefinidas -->
+         <div>
+            <label for="salas">Nombre de la sala: </label>
+            <input list="nombres_salas" id="id_nombres_salas_input" name="salas">
+            <datalist id="nombres_salas">
+                <option value='Gutierrez-Martin'></option>
+                <option value="Elliott, Snow and Mccann"></option>
+                <option value="Edwards-Morris"></option>
+                <option value='Berry-Ortega'></option>
+                <option value="Foster LLC"></option>
+                <option value="Watts, Davis and Smith"></option>
+            </datalist>
+        </div>
+        <!-- Campo numero de asiento y seccion-->
+         <div>
+            <label for="numero_asiento">Numero del asiento:</label>
+            <input type="number" name="numero_asiento" id="id_numero_asientos_input">
+        </div>
+        <div>
+            <label for="seccion_asiento">Seccion del asiento:</label>
+            <input type="text" name="seccion_asiento" id="id_seccion_asientos_input">
+        </div>
+        <!-- Campo para la fecha de reserva-->
+         <div>
+            <label for="fecha_asiento">Horario de reserva:</label>
+            <input type="datetime-local" name="fecha_asiento" id="id_fecha_asientos_input" step="1">
+        </div>
+        <div>
+            <button type="submit">Aceptar</button>
+        </div>
+    </form>
+    
+
+</body>
+</html>

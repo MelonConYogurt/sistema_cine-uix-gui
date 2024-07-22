@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: dimgray;
+}
+
+.div-form-asientos{
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    overflow:hidden;
+}
+
+.div-form-asientos , input{
+    border-radius: .3125rem;
+    padding: .3125rem;
+}
+
+.div-form-asientos, div{
+    display: flex;
+    flex-direction: column;
+    gap: .225rem;
+    padding: .625rem;
+}
+
+button{
+    border-radius: .625rem;
+    padding: .625rem;
+    background-color: white;
+    
+}
