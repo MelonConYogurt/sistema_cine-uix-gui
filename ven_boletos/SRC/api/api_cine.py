@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Response
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
-from SRC.data_base_cine import *
+from SRC.main.data_base_cine import *
 from pydantic import BaseModel
 
 # db_conector = base_datos = conexion_base_datos()
