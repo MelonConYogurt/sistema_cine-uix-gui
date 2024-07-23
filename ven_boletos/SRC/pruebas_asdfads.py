@@ -1,9 +1,30 @@
-#comentarios
-
-
-
-
-def numero ():
-    pass
-
-#comentario
+hola = 1
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
+numero = hola
