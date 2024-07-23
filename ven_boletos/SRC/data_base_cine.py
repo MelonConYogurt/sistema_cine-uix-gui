@@ -484,6 +484,9 @@ if __name__ == '__main__':
     #INSTACIA DE LA CLASE:
     base_datos = conexion_base_datos()
     
+    
+    #pruebas de cine y de github
+    
     #Funciones de relleno:
     # Llenar la base de datos con 10 salas ficticias
     # base_datos.llenar_datos_falsos_salas(3000)
