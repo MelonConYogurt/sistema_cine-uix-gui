@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
-
+from typing import Any
 
 class model_asiento(BaseModel):
     sala: str
@@ -28,10 +28,7 @@ class model_clientes(BaseModel):
 class model_horarios(BaseModel):
     nombre_pelicula: str
     nombre_sala: str
-    fecha_funcion: any
-    
-    
-    
+    fecha_funcion: Any
     
 if __name__ == "__main__":
     pass
