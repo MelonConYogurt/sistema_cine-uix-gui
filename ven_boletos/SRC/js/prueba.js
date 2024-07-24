@@ -79,3 +79,40 @@ document.getElementById('peliculas_form').addEventListener('submit', async funct
         alert('Error al añadir la película');
     }
 });
+
+
+document.getElementById('salas_form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const nombre = document.getElementById('id_nombre_sala_input').value;
+    const capacidad = document.getElementById('id_capacidad_sala_input').value;
+    const estado = document.getElementById('id_estado_sala_input').value;
+
+    const data = {
+        nombre_sala: nombre,
+        capacidad_sala: capacidad,
+        estado_sala: estado,
+    };
+
+    try {
+        const response = await fetch('http://127.0.0.1:8000/crear/salas/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const result = await response.json();
+        console.log('Success:', result);
+        alert('Película añadida con éxito');
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Error al añadir la película');
+    }
+});
+
