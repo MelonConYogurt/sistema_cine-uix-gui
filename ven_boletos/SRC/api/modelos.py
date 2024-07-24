@@ -17,7 +17,7 @@ class model_pelicula(BaseModel):
     titulo_pelicula: str
     genero_pelicula: str
     duracion_pelicula: int 
-    rating_pelicula: int
+    rating_pelicula: float
 
 class model_clientes(BaseModel):
     nombre_cliente: str
