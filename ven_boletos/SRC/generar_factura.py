@@ -1,1 +1,0 @@
-#En este documento se va a crear una funcion para las facturas del cine
