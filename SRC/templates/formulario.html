@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
 
     <form id="asientos_form" class="div-form-asientos">
         <h2>Funcion agregar asientos</h2>
         <!-- Lista de opciones predefinidas -->
          <div>
-            <label for="salas">Nombre de la sala: </label>
+            <label for="salas">Nombre de la sala </label>
             <input list="nombres_salas" id="id_nombres_salas_input" name="salas">
             <datalist id="nombres_salas">
                 <option value='Gutierrez-Martin'></option>
@@ -25,16 +30,16 @@
         </div>
         <!-- Campo numero de asiento y seccion-->
          <div>
-            <label for="numero_asiento">Numero del asiento:</label>
+            <label for="numero_asiento">Numero del asiento</label>
             <input type="number" name="numero_asiento" id="id_numero_asientos_input">
         </div>
         <div>
-            <label for="seccion_asiento">Seccion del asiento:</label>
+            <label for="seccion_asiento">Seccion del asiento</label>
             <input type="text" name="seccion_asiento" id="id_seccion_asientos_input">
         </div>
         <!-- Campo para la fecha de reserva-->
          <div>
-            <label for="fecha_asiento">Horario de reserva:</label>
+            <label for="fecha_asiento">Horario de reserva</label>
             <input type="datetime-local" name="fecha_asiento" id="id_fecha_asientos_input" step="1">
         </div>
         <div>
@@ -47,22 +52,22 @@
         <h2>Funcion agregar peliculas</h2>
         <!-- Campo titulo para la pelicula nueva -->
          <div>
-            <label for="peliculas">Titulo de la pelicula: </label>
+            <label for="peliculas">Titulo de la pelicula </label>
             <input type="text" name="peliculas" id="id_titulo_peliculas_input">
         </div>
         <!-- Campo genero pelicula-->
          <div>
-            <label for="genero_pelicula">Genero de la pelicula:</label>
+            <label for="genero_pelicula">Genero de la pelicula</label>
             <input type="text" name="genero_pelicula" id="id_genero_pelicula_input">
         </div>
         <!-- Campo duracion pelicula-->
         <div>
-            <label for="duracion_pelicula">Duracion de la pelicula:</label>
+            <label for="duracion_pelicula">Duracion de la pelicula</label>
             <input type="number" name="duracion_pelicula" id="id_duracion_pelicula_input">
         </div>
         <!-- Campo para el rating de la pelicula-->
          <div>
-            <label for="rating_pelicula">Rating de la pelicula:</label>
+            <label for="rating_pelicula">Rating de la pelicula</label>
             <input type="number" name="fecha_asiento" id="id_rating_pelicula_input" step="0.1">
         </div>
         <div>
@@ -75,17 +80,17 @@
         <h2>Funcion agregar salas</h2>
         <!-- Campo nombre de la sala nueva -->
          <div>
-            <label for="salas">Nombre de la sala: </label>
+            <label for="salas">Nombre de la sala </label>
             <input type="text" name="salas" id="id_nombre_sala_input">
         </div>
         <!-- Campo capacidad nueva sala-->
          <div>
-            <label for="capacidad_sala">Capacidad de la sala:</label>
+            <label for="capacidad_sala">Capacidad de la sala</label>
             <input type="number" name="capacidad_sala" id="id_capacidad_sala_input">
         </div>
         <!-- Campo duracion pelicula-->
         <div>
-            <label for="estado_sala">Estado de la sala:</label>
+            <label for="estado_sala">Estado de la sala</label>
             <input type="number" name="estado_sala" id="id_estado_sala_input">
         </div>
         <div>
